@@ -5,12 +5,21 @@
    ========================================================================== */
 
 .page-header{
-	background-image:ulr("../img/logoUbNew.jpg");
-	background-repeat: repeat-x;
+    background-image: url("../img/degradeheader.jpg");
+    background-repeat: repeat-x;
+}
 
+.page-header .row h1{
+	display: block;
+	border:solid 1px red;
+	width: 220px;
 }
 
 
+.page-header .row h2{
+	display: block;
+	border:solid 1px yellow; width: 112px;
+}
 
 
 
