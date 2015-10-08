@@ -3,7 +3,10 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+body{
+	background-color: #16264B;
+	
+}
 .page-header{
     background-image: url("../img/degradeheader.jpg");
     background-repeat: repeat-x;
