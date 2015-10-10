@@ -1,12 +1,22 @@
 
 
 /* ==========================================================================
-   Author's custom styles
+ Estilos Generales
    ========================================================================== */
 body{
 	background-color: #16264B;
 	
 }
+
+.padding0{padding:0px!important;}
+.margin0{margin:0px!important;}
+.border0{border:0px!important;}
+
+
+/* ==========================================================================
+ Header
+   ========================================================================== */
+
 .page-header{
     background-image: url("../img/degradeheader.jpg");
     background-repeat: repeat-x;
@@ -23,15 +33,64 @@ body{
  width: 150px;
 
 }
-.padding0{padding:0px!important;}
-.margin0{margin:0px!important;}
-.border0{border:0px!important;}
+
+/* ==========================================================================
+	Botonera Top
+   ========================================================================== */
+
+#botoneraTop {
+border-color:#091a41;
+box-shadow:none;
+}
+
+#mainContainerHome{
+	background-color:#fff;
+	padding:0px;
+	max-width:1060px;
+}
+
+.navbar-default {
+	border-radius:0px;
+}
+
+#botoneraTop .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 
+.navbar-default {
+	background-image:none;
+    background-color: #030E27!important;
+	
+	}
 
+	
+.navbar {
+    position: relative;
+    min-height: 42px;
+    margin-bottom: 20px;
 
+}
+	
+	
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a {
+color:#fff; font-size:0.9em; font-family:DIN; 
+font-weight:bold; text-transform:uppercase;
+background-image: url("../img/degradeBtnMnu.jpg");
+border-right:solid 1px #091A41;
 
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:hover {
+background-image: url("../img/degradeBtnMnu-Hover.jpg");
+color:#fff;
+}
 
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .active > a{
+background-color:#091A41;
+background-image: url("../img/degradeBtnMnu-Hover.jpg");
+color:#fff;
+}
 
 
 
