@@ -11,6 +11,7 @@ body{
 .padding0{padding:0px!important;}
 .margin0{margin:0px!important;}
 .border0{border:0px!important;}
+.sinMarginBottom{margin-bottom:0px!important;}
 
 
 /* ==========================================================================
@@ -47,7 +48,7 @@ box-shadow:none;
 #mainContainerHome{
 	background-color:#fff;
 	padding:0px;
-	max-width:1060px;
+	
 }
 
 .navbar-default {
@@ -93,6 +94,26 @@ background-image: url("../img/degradeBtnMnu-Hover.jpg");
 color:#fff;
 }
 
+
+
+@media screen and (min-width: 768px) {
+	#botoneraTop .navbar-collapse {padding-left: 0px;}
+	#botoneraTop .container-fluid {padding-left: 0px;}
+}
+
+
+/* Cuadro superior presentación*/
+
+#marcoCuadroSuperior{
+	
+	border:solid 10px #fff;
+	padding:0px;
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	margin-top:10px;
+	margin-bottom:10px;
+}
 
 
 
