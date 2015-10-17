@@ -56,8 +56,8 @@ box-shadow:none;
 }
 
 #botoneraTop .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 	padding-right:10px;
 	padding-left:10px;
 }
@@ -76,7 +76,7 @@ box-shadow:none;
 	
 .navbar {
     position: relative;
-    min-height: 42px;
+    min-height: 35px;
     margin-bottom: 20px;
 
 }
@@ -121,7 +121,7 @@ color:#fff;
 	margin-bottom:10px;
 }
 
-#marcoBotoneraSuperior{
+.styleShadowContainer{
 
 border: 10px solid #FFF;
 padding: 0px;
@@ -152,6 +152,19 @@ margin-bottom: 11px;
 }
 
 
+#marcoBotoneraSuperior .list-group .list-group-item:hover {
+background: -moz-linear-gradient(top,  rgba(0,59,163,1) 0%, rgba(2,59,162,1) 2%, rgba(42,68,128,1) 52%, rgba(42,68,128,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,59,163,1)), color-stop(2%,rgba(2,59,162,1)), color-stop(52%,rgba(42,68,128,1)), color-stop(100%,rgba(42,68,128,1)));
+background: -webkit-linear-gradient(top,  rgba(0,59,163,1) 0%,rgba(2,59,162,1) 2%,rgba(42,68,128,1) 52%,rgba(42,68,128,1) 100%);
+background: -o-linear-gradient(top,  rgba(0,59,163,1) 0%,rgba(2,59,162,1) 2%,rgba(42,68,128,1) 52%,rgba(42,68,128,1) 100%);
+background: -ms-linear-gradient(top,  rgba(0,59,163,1) 0%,rgba(2,59,162,1) 2%,rgba(42,68,128,1) 52%,rgba(42,68,128,1) 100%);
+background: linear-gradient(to bottom,  rgba(0,59,163,1) 0%,rgba(2,59,162,1) 2%,rgba(42,68,128,1) 52%,rgba(42,68,128,1) 100%);
+
+}
+
+
+
+
 @media screen and (max-width: 992px) {
 	#marcoBotoneraSuperior .list-group .list-group-item{
 		margin-bottom: 0px;
@@ -159,3 +172,11 @@ margin-bottom: 11px;
 
 }
 
+
+@media screen and (min-width: 760px) {
+.rowContainertop{
+	padding: 0px;
+
+}
+
+}
